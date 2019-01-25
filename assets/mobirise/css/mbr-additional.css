@@ -794,6 +794,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-rfW3UpOfrG .navbar.opened {
   transition: all .3s;
@@ -1397,66 +1398,126 @@ body {
     display: block;
   }
 }
-.cid-rfTPmAzqNI {
+.cid-rg5IfNyo3p {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rfTPmAzqNI .title {
-  padding: 0 1em;
-  margin-bottom: 25px;
-  color: #232323;
+.cid-rg5IfNyo3p .mbr-section-title {
+  margin: 0;
 }
-.cid-rfTPmAzqNI .price-item {
-  background: #ffffff;
-  padding: 25px 0em;
-  margin-bottom: 1em;
-  border: 1px solid #f1f1f1;
-  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+.cid-rg5IfNyo3p .underline {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
 }
-.cid-rfTPmAzqNI .price-tage {
-  background: #808080 none repeat scroll 0 0;
-  padding: 15px 1em;
+.cid-rg5IfNyo3p .underline .line {
+  width: 3rem;
+  height: 2px;
+  background: #444444;
+  display: inline-block;
 }
-.cid-rfTPmAzqNI .pricing-footer {
+.cid-rg5IfNyo3p .media-row {
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
 }
-.cid-rfTPmAzqNI .price-tage > span {
-  letter-spacing: 2px;
+.cid-rg5IfNyo3p .team-item {
+  transition: all .2s;
+  margin: 2rem 0;
 }
-.cid-rfTPmAzqNI .table-content {
-  padding: 0;
-  margin-bottom: 25px;
+.cid-rg5IfNyo3p .team-item .item-image {
+  position: relative !important;
 }
-.cid-rfTPmAzqNI .table-content > li {
-  list-style: none;
-  border-bottom: 1px solid #f2f2f2;
-  padding: 1em 1em;
+.cid-rg5IfNyo3p .team-item .item-image img {
+  width: 100%;
 }
-.cid-rfTPmAzqNI .table-content > li:last-child {
-  border-bottom: 1px solid #f0f0f0;
+.cid-rg5IfNyo3p .team-item .item-image::after {
+  background: #000000;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
 }
-.cid-rfTPmAzqNI .table-content > li:nth-child(2n) {
-  background: #f2f2f2 none repeat scroll 0 0;
-}
-.cid-rfTPmAzqNI .costs {
-  color: #ffffff;
-}
-.cid-rfTPmAzqNI .costs-title {
-  color: #ffffff;
-}
-.cid-rfTPmAzqNI .price-item {
-  padding-bottom: 0;
-}
-.cid-rfTPmAzqNI .table-content {
+.cid-rg5IfNyo3p .team-item .item-name p {
   margin-bottom: 0;
 }
-.cid-rfTPmAzqNI .table-content > li:last-child {
-  border-bottom: none;
+.cid-rg5IfNyo3p .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rg5IfNyo3p .team-item .item-caption {
+  background: #efefef;
+}
+.cid-rg5IfNyo3p .item-social {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 1;
+}
+.cid-rg5IfNyo3p .item-social li {
+  display: inline-block;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.cid-rg5IfNyo3p .item-social li a span {
+  border-radius: 50%;
+  background-color: #444444;
+  color: white;
+  font-size: 14px;
+  width: 3em;
+  margin: 2px;
+  height: 3em;
+  line-height: 3em;
+  display: block;
+  padding: 0.1rem 0.9rem;
+}
+.cid-rg5IfNyo3p .item-social li a span:hover {
+  background-color: #ffbc00;
+  color: #000000;
+}
+.cid-rg5IfNyo3p .team-item:hover .item-social > li.social-1 {
+  transition-delay: .1s;
+  opacity: 1;
+  visibility: visible;
+}
+.cid-rg5IfNyo3p .team-item:hover .item-social > li.social-2 {
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
+}
+.cid-rg5IfNyo3p .team-item:hover .item-social > li.social-3 {
+  transition-delay: .3s;
+  opacity: 1;
+  visibility: visible;
+}
+.cid-rg5IfNyo3p .team-item:hover .item-social > li.social-4 {
+  transition-delay: .4s;
+  opacity: 1;
+  visibility: visible;
+}
+.cid-rg5IfNyo3p .team-item:hover .item-social > li.social-5 {
+  transition-delay: .5s;
+  opacity: 1;
+  visibility: visible;
+}
+.cid-rg5IfNyo3p .team-item:hover .item-social > li.social-6 {
+  transition-delay: .6s;
+  opacity: 1;
+  visibility: visible;
+}
+.cid-rg5IfNyo3p .builderCard .item-image::after {
+  border-bottom-left-radius: 5rem;
 }
 .cid-rfTJ9ZXvSz {
   padding-top: 90px;
