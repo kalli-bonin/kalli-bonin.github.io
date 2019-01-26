@@ -1614,6 +1614,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-rfW3UpOfrG .navbar.opened {
   transition: all .3s;
@@ -2009,6 +2010,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-rg0aWJeKWm .navbar.opened {
   transition: all .3s;
@@ -2404,6 +2406,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-rg0bkOHwZd .navbar.opened {
   transition: all .3s;
