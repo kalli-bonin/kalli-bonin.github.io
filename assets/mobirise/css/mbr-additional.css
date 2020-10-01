@@ -2327,7 +2327,6 @@ section.lazy-placeholder:after {
   min-height: 77px;
   transition: all .3s;
   background: #efefef;
-  background: none;
 }
 .cid-rfW3UpOfrG .navbar.opened {
   transition: all .3s;
@@ -2720,9 +2719,6 @@ section.lazy-placeholder:after {
 .cid-saNzvPGC1m ul {
   padding: 0;
   margin: 0;
-}
-.cid-saNzvPGC1m .container {
-  margin-left: 10%;
 }
 .cid-saNzvPGC1m .col-title {
   color: #57468b;
